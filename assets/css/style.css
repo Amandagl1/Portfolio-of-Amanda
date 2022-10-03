@@ -9,25 +9,39 @@ h1 {
     font-size: 200%;
     font-family: 'Trebuchet MS';
     display: inline-block;
-    align-self: center;
-    margin: 70px;
+    align-content: center;
+    border: 12px;
+    width: 170px;
+    border-radius: 6px;
+    margin: 20px;
+    background-color: lightpink;
     color: white;
 }
 
 header ul {
-    color: aliceblue;
-    font-family:'Trebuchet MS';
+    border: 0px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+.navigation-bar {
     display: flex;
     justify-content: flex-end;
     align-content: space-between;
-    font-size: 20px;
+    padding: 2px;
+    border: 1px;
+    margin-left: 50px;
 }
 
+/*find cursive font*/
 a {
     color: white;
     display: inline-block;
     justify-content: space-between;
     padding: 15px;
+    font-family: cursive, 'Trebuchet MS';
+    font-size: 20px;
+    font-weight: bold;
 }
 
 body {
@@ -50,6 +64,8 @@ body {
 
 footer {
     margin-top: 25px;
+    display: inline-block;
+    min-width: 200vh;
 }
     
 footer h3 {

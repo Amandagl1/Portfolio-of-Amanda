@@ -2,6 +2,7 @@ header {
     background-color: rosybrown;
     display: flexbox;
     line-height: 20px;
+    position: relative;
 }
 
 h1 {
@@ -29,21 +30,34 @@ a {
     padding: 15px;
 }
 
-.display {
+body {
+    display: flexbox;
+    flex-wrap: wrap;
+}
+
+.part {
     display: block;
     justify-content: flex-start;
 }
 
-.about-me {
+.display {
     background-color: aliceblue;
-    width: 300px;
+    width: 600px;
     border: 10px solid lightpink;
     padding: 50px;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 footer {
+    margin-top: 25px;
+}
+    
+footer h3 {
+    display: flexbox;
+    background-color: rosybrown;
     font-size: 15pt;
     font-family: 'Trebuchet MS';
+    color: white;
+    padding: 15px;
  }
  

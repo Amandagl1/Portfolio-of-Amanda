@@ -4,26 +4,23 @@ html {
 
 header {
     background-color: rosybrown;
-    display: flexbox;
-    line-height: 50px;
+    display: block;
+    height: 100px;
     position: relative;
 }
 
-h1 {
-    font-size: 200%;
+header h1 {
+    font-size: 400%;
     font-family: 'Trebuchet MS';
     color: white;
-    /*display: flex;
-    padding: 20px;
-    margin: 20px;*/
 }
 
 .nametag {
     display: flex;
-    height: 46px;
+    height: 86px;
     border: 20px;
-    width: 170px;
-    border-radius: 33px;
+    width: 300px;
+    border-radius: 22px;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -33,9 +30,10 @@ h1 {
 }
 
 header ul {
-    border: 0px;
-    padding: 0px;
-    margin-right: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 5px;
 }
 
 .navigation-bar {
@@ -44,36 +42,37 @@ header ul {
     align-content: space-between;
     padding: 2px;
     border: 1px;
-    margin-left: 50px;
+    right: 50px;
+    bottom: 0px;
+}
+
+span {
+    ::hover
 }
 
 .container {
     max-width: 300px;
     display: inline-block;
-    position: relative;
     border: 7px solid rosybrown;
-    margin: 10px;
+    margin: 20px;
+    left: 100px;
 }
 
 a {
     color: white;
-    display: inline-block;
-    justify-content: space-between;
     padding: 15px;
     font-family: cursive, 'Trebuchet MS';
     font-size: 20px;
     font-weight: bold;
 }
 
-body {
-    display: flexbox;
-    flex-wrap: wrap;
-}
-
 /*
 .part {
-    display: block;
-    justify-content: flex-start;
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    position: absolute; 
+    top: 0;
 }
 */
 
@@ -85,11 +84,10 @@ body {
     margin-top: 20px;
 }
 
-/* length of veiwport */
 footer {
     margin-top: 25px;
-    display: inline-block;
-    width: 100vh;
+    display: block;
+    width: 100%;
 }
     
 footer h3 {

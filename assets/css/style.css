@@ -1,21 +1,35 @@
+html {
+    background-color: beige;
+}
+
 header {
     background-color: rosybrown;
     display: flexbox;
-    line-height: 20px;
+    line-height: 50px;
     position: relative;
 }
 
 h1 {
     font-size: 200%;
     font-family: 'Trebuchet MS';
-    display: inline-block;
-    align-content: center;
-    border: 12px;
-    width: 170px;
-    border-radius: 6px;
-    margin: 20px;
-    background-color: lightpink;
     color: white;
+    /*display: flex;
+    padding: 20px;
+    margin: 20px;*/
+}
+
+.nametag {
+    display: flex;
+    height: 46px;
+    border: 20px;
+    width: 170px;
+    border-radius: 33px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    bottom: -12px;
+    left: 17px;
+    background-color: lightpink;
 }
 
 header ul {
@@ -33,7 +47,14 @@ header ul {
     margin-left: 50px;
 }
 
-/*find cursive font*/
+.container {
+    max-width: 300px;
+    display: inline-block;
+    position: relative;
+    border: 7px solid rosybrown;
+    margin: 10px;
+}
+
 a {
     color: white;
     display: inline-block;
@@ -49,23 +70,26 @@ body {
     flex-wrap: wrap;
 }
 
+/*
 .part {
     display: block;
     justify-content: flex-start;
 }
+*/
 
 .display {
-    background-color: aliceblue;
+    background-color: beige;
     width: 600px;
     border: 10px solid lightpink;
     padding: 50px;
     margin-top: 20px;
 }
 
+/* length of veiwport */
 footer {
     margin-top: 25px;
     display: inline-block;
-    min-width: 200vh;
+    width: 100vh;
 }
     
 footer h3 {

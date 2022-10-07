@@ -46,8 +46,8 @@ header ul {
 }
 
 /*
-span {
-    ::hover
+span:hover::after {
+    display: none
 }
 */
 
@@ -59,11 +59,10 @@ span {
 
 .container {
     max-width: 300px;
-    display: inline-block;
+    display: flex;
     border: 7px solid rosybrown;
     margin: 20px;
     left: 70px;
-    position: absolute;
 }
 
 a {

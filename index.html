@@ -11,42 +11,75 @@
 </head>
 
 <header>
-    <h1 class="nametag">Amanda</h1>
-    <div class="navigation-bar">
+    <h1 id="nametag">
+        Amanda
+    </h1>
         <ul>
             <a href="#"><span>About Me</span></a>
             <a href="#"><span>Work</span></a>
             <a href="#"><span>Contact Me</span></a>
             <a href="#"><span>Resume</span></a>
         </ul>
-    </div>
 </header>
 
-<div><img class=bookcase src="./assets/images/bookcase.jpeg" alt="Bookcase/Reading nook"></div>
+<div>
+    <img id=bookcase src="./assets/images/bookcase.jpeg" alt="Bookcase/Reading nook">
+</div>
 
 <body>
-    <img class="container" src="./assets/images/IMG_2275_original.jpg" alt="Photo of Amanda">
+    <!--Recent profile picture-->
+    <img id="profile" src="./assets/images/IMG_2275_original.jpg" alt="Photo of Amanda">
     <section class="part">
-        <div class="display" id="about-me">
-            <h2>About Me</h2>
-            <p>Hi, my name is Amanda Lee and I recently moved from Hawaii to Seattle, Washington. I am studying at SMU bootcamp to become a future developer and I am excited to see what the future holds.</p>
-        </div>
+    
+    <!--Short introduction-->
+    <article>
 
-        <div class="display" id="work">
-            <h2>Work</h2>
-            <p> </p>
+        <div class="title">
+            <h2>
+                About Me
+            </h2>
         </div>
+            <div class="display">
+                <p>
+                    Hi, my name is Amanda Lee and I recently moved from Hawaii to Seattle, Washington.
+                    I am studying at SMU bootcamp to become a future developer and I am excited to see what the future holds!
+                </p>
+            </div>
+    </article>
 
-        <div class="display" id="resume">
-            <h2>Resume</h2>
-            <p> </p>
+    <!--Includes screenshots of previous work-->  
+    <article>
+
+        <div class="title">
+            <h2>
+                Work
+            </h2>
         </div>
+        
+        <section class="allimages">
+            <div class="workbanner">
+                <img class="banner" src="./assets/images/codingImage.jpeg" alt="Coding Image">
+            </div>
+            <div class="workimages" class="imageborder">
+                <img class="photo" src="./assets/images/Prework-study-guide.1.png" alt="Screenshot of Prework Guide Code pt.1">
+                <img class="photo" src="./assets/images/Prework-study-guide.2.png" alt="Screenshot of Prework Guide Code pt.2">
+            </div>
+            <div class="workimages" class="imageborder">
+                <img class="photo" src="./assets/images/Challenge-1-screenshot.1.png" alt="Screenshot of Challenge 1 pt.1">
+                <img class="photo" src="./assets/images/Challenge-1-screenshot.2.png" alt="Screenshot of Challenge 2 pt.1">
+            </div>
+        </section>
+
+      </article>
+
     </section>
 </body>
 
+<!--Contact Information-->
 <footer>
-    <h3>Contact Me</h3>
-
+    <h3>
+        Contact Me
+    </h3>
 </footer>
 
 </html>

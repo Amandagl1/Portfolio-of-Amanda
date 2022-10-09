@@ -9,9 +9,9 @@
 * {
     font-family: 'Trebuchet MS';
 }
-
 html {
     background-color: beige;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -23,7 +23,7 @@ header {
 
 header h1 {
     font-size: 400%;
-    color: white;
+    color: #fff;
 }
 
 #nametag {
@@ -49,12 +49,20 @@ header ul {
     padding: 10px;
 }
 
-/*
-span:hover::after {
-    display: none
-}
-*/
 
+#about-me {
+    height: 200px;
+}
+
+#work {
+    height: 200px;
+}
+
+#contact-me {
+    height: 200px;
+}
+
+/* ID for header image */
 #bookcase {
     width: 100%;
     position: absolute;
@@ -73,14 +81,14 @@ h2 {
 }
 
 a {
-    color: white;
+    color: #fff;
     padding: 15px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
 }
 
 p {
-    color: white;
+    color: #fff;
     font-size: 20px;
     color: var(--forest);
 }
@@ -100,6 +108,7 @@ article {
     padding: 50px;
 }
 
+/* Border in between 'About Me' h1 and p */
 .display {
     background-color: beige;
     width: 600px;
@@ -109,8 +118,8 @@ article {
     height: 200px;
 }
 
+/*Positions h2 headers 'About Me' and 'Work'*/
 .title {
-    background-color: beige;
     padding: 50px;
     margin-top: 20px;
     height: 200px;
@@ -122,14 +131,7 @@ article {
     border-left: 10px solid var(--forest);
     padding: 50px;
     margin-top: 20px;
-    height: 700px;
-}
-
-.imageborder {
-    display: flex;
-    flex-wrap: wrap;
-    border: 5px solid var(--light);
-    justify-content: space-around;
+    height: 650px;
 }
 
 .workimages {
@@ -141,16 +143,6 @@ article {
     margin: 10px;
     
 }
-
-/* .workbanner {
-    background-color: beige;
-    width: 600px;
-    border-left: 10px solid lightpink;
-    padding: 50px;
-    margin-top: 20px;
-    height: 700px;
-} */
-
 .banner {
     height: 200px;
     width: 500px;
@@ -170,8 +162,20 @@ footer {
 footer h3 {
     background-color: rosybrown;
     font-size: 15pt;
-    color: white;
+    color: #fff;
     padding: 15px;
+}
+
+footer:hover #email {
+    color: black;
+    display: flex;
+    width: 320px;
+}
+
+#email {
+    display: none;
+    padding: 10px;
+    background-color: #fff;
 }
 
 /*
@@ -179,6 +183,7 @@ Media Query at 768px
 */
 
 @media (max-width: 768px) {
+
  header {
     background-color: var(--dark);
     display: block;
@@ -187,7 +192,7 @@ Media Query at 768px
  }
  header h1 {
     font-size: 300%;
-    color: white;
+    color: #fff;
  }
     
  #nametag {
@@ -203,6 +208,13 @@ Media Query at 768px
     background-color: var(--light);
  }
 
+ a {
+    color: #fff;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
  #profile {
     display: flex;
     max-width: 250px;
@@ -216,7 +228,7 @@ Media Query at 768px
     border-left: 10px solid var(--dark);
     padding: 50px;
     margin-top: 20px;
-    height: 200px;
+    height: 270px;
  }
 
  .allimages {
@@ -225,18 +237,11 @@ Media Query at 768px
     border-left: 10px solid var(--dark);
     padding: 50px;
     margin-top: 20px;
-    height: 700px;
- }
-    
- a {
-    color: white;
-    padding: 15px;
-    font-size: 17px;
-    font-weight: bold;
+    height: 650px;
  }
  
  p {
-    color: white;
+    color: #fff;
     font-size: 20px;
     color: var(--dark);
 }
@@ -257,14 +262,14 @@ Just before navigation bar reaches h1 element
  }
     
  header h1 {
-    font-size: 200%;
-    color: white;
+    font-size: 220%;
+    color: #fff;
  }
         
  #nametag {
     display: flex;
     height: 66px;
-    width: 150px;
+    width: 170px;
     border: 20px; 
     border-radius: 22px;
     justify-content: center;
@@ -272,6 +277,13 @@ Just before navigation bar reaches h1 element
     bottom: -12px;
     left: 17px;
     background-color: var(--darkest);
+ }
+
+ a {
+    color: #fff;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
  }
     
  #profile {
@@ -287,7 +299,7 @@ Just before navigation bar reaches h1 element
     border-left: 10px solid var(--darkest);
     padding: 50px;
     margin-top: 20px;
-    height: 200px;
+    height: 290px;
  }
     
  .allimages {
@@ -296,18 +308,11 @@ Just before navigation bar reaches h1 element
     border-left: 10px solid var(--darkest);
     padding: 50px;
     margin-top: 20px;
-    height: 700px;
- }
-        
- a {
-    color: white;
-    padding: 12px;
-    font-size: 14px;
-    font-weight: bold;
+    height: 650px;
  }
  
  p {
-    color: white;
+    color: #fff;
     font-size: 20px;
     color: var(--darkest);
 }

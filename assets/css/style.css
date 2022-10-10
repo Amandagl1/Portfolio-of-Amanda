@@ -6,14 +6,6 @@
     --forest: rgb(42, 68, 13);
 }
 
-* {
-    font-family: 'Trebuchet MS';
-}
-html {
-    background-color: beige;
-    scroll-behavior: smooth;
-}
-
 header {
     background-color: rosybrown;
     display: block;
@@ -59,7 +51,7 @@ header ul {
 }
 
 #contact-me {
-    height: 200px;
+    height: 0px;
 }
 
 /* ID for header image */
@@ -88,7 +80,13 @@ a {
 }
 
 p {
-    color: #fff;
+    font-size: 20px;
+    color: var(--forest);
+}
+
+/* link to SMU coding bootcamp website*/
+article p a {
+    text-decoration: underline;
     font-size: 20px;
     color: var(--forest);
 }
@@ -116,6 +114,19 @@ article {
     padding: 50px;
     margin-top: 20px;
     height: 200px;
+    position: relative;
+}
+
+
+#shadowbox {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid var(--forest);
+    background-color: #fff;
+    box-shadow: 5px 5px gray;
+    position: absolute;
+    top: -3px;
 }
 
 /*Positions h2 headers 'About Me' and 'Work'*/
@@ -154,7 +165,7 @@ article {
 }
 
 footer {
-    margin-top: 25px;
+    margin-top: 25px; 
     display: block;
     width: 100%;
 }
@@ -174,8 +185,12 @@ footer:hover #email {
 
 #email {
     display: none;
-    padding: 10px;
     background-color: #fff;
+    box-shadow: 10px 7px 2px lightgray;
+    border: 1px solid black;
+    position: fixed;
+    bottom: 60px;
+    left: 10px;
 }
 
 /*
@@ -244,6 +259,24 @@ Media Query at 768px
     color: #fff;
     font-size: 20px;
     color: var(--dark);
+}
+
+article p a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--dark);
+}
+
+/* Aligns with the border in between h2 'About Me' */
+#shadowbox {
+    padding: 10px;
+    width: 430px;
+    height: 200px;
+    border: 1px solid var(--dark);
+    background-color: #fff;
+    box-shadow: 5px 5px gray;
+    position: absolute;
+    top: 28px;
 }
 
 }
@@ -315,5 +348,23 @@ Just before navigation bar reaches h1 element
     color: #fff;
     font-size: 20px;
     color: var(--darkest);
+}
+
+article p a {
+    text-decoration: underline;
+    font-size: 20px;
+    color: var(--darkest);
+}
+
+/* Aligns with the border in between h2 'About Me' */
+#shadowbox {
+    padding: 10px;
+    width: 400px;
+    height: 200px;
+    border: 1px solid var(--darker);
+    background-color: #fff;
+    box-shadow: 5px 5px gray;
+    position: absolute;
+    top: 38px;
 }
 }

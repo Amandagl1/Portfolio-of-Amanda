@@ -72,7 +72,7 @@ h2 {
     font-size: 200%;
 }
 
-a {
+header a {
     color: #fff;
     padding: 15px;
     font-size: 24px;
@@ -150,6 +150,10 @@ article {
     margin: 30px;
 }
 
+.reset {
+    margin: 0px;
+}
+
 .photo{
     margin: 10px;
     
@@ -223,7 +227,7 @@ Media Query at 768px
     background-color: var(--light);
  }
 
- a {
+ header a {
     color: #fff;
     padding: 15px;
     font-size: 20px;
@@ -312,7 +316,7 @@ Just before navigation bar reaches h1 element
     background-color: var(--darkest);
  }
 
- a {
+ header a {
     color: #fff;
     padding: 12px;
     font-size: 16px;

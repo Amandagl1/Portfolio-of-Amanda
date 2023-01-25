@@ -1,4 +1,6 @@
-# READ ME
+# My Portfolio
+
+Deployed Application: [My Portfolio](https://amandagl1.github.io/Challenge-2-Portfolio/)
 
 ## Description
 
@@ -9,7 +11,3 @@
 
 ## Screenshots
 ![Screenshot of webpage](assets/images/webpage-screenshot.png)
-
-## Deployed Application
-
-Check out my portolio [here](https://amandagl1.github.io/Challenge-2-Portfolio/)!

@@ -119,12 +119,15 @@ article {
 
 
 #shadowbox {
+    display: flex;
+    align-items: center;
     padding: 10px;
-    width: 400px;
+    width: 430px;
     height: 200px;
     border: 1px solid var(--forest);
+    border-radius: 18px;
     background-color: #fff;
-    box-shadow: 5px 5px gray;
+    box-shadow: 5px 5px 3px 2px gray;
     position: absolute;
     top: -3px;
 }
@@ -269,6 +272,7 @@ Media Query at 768px
     margin: 10px;
     border: 5px solid var(--darkest);
 }
+
  p {
     color: #fff;
     font-size: 20px;
@@ -283,13 +287,7 @@ article p a {
 
 /* Aligns with the border in between h2 'About Me' */
 #shadowbox {
-    padding: 10px;
-    width: 430px;
-    height: 200px;
     border: 1px solid var(--dark);
-    background-color: #fff;
-    box-shadow: 5px 5px gray;
-    position: absolute;
     top: 28px;
 }
 
@@ -372,13 +370,7 @@ article p a {
 
 /* Aligns with the border in between h2 'About Me' */
 #shadowbox {
-    padding: 10px;
-    width: 400px;
-    height: 200px;
     border: 1px solid var(--darker);
-    background-color: #fff;
-    box-shadow: 5px 5px gray;
-    position: absolute;
     top: 38px;
 }
 }

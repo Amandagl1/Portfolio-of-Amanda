@@ -70,6 +70,7 @@ header ul {
 
 h2 {
     font-size: 200%;
+    text-shadow: 2px 4px gray;
 }
 
 header a {
@@ -142,10 +143,10 @@ article {
 .allimages {
     background-color: beige;
     width: 600px;
+    height: 800px;
     border-left: 10px solid var(--forest);
     padding: 50px;
     margin-top: 20px;
-    height: 650px;
 }
 
 .workimages {

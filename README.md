@@ -1,6 +1,6 @@
 # My Portfolio
 
-Deployed Application: [My Portfolio](https://amandagl1.github.io/Challenge-2-Portfolio/)
+Deployed Application: [My Portfolio](https://amandagl1.github.io/Portfolio-of-Amanda/)
 
 ## Description
 
